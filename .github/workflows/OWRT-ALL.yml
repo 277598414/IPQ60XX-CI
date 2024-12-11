@@ -48,7 +48,7 @@ jobs:
       #默认WIFI名称
       WRT_SSID: xiaomi
       #默认WIFI密码
-      WRT_WORD: *#36343314
+      WRT_WORD: 36343314
       #默认地址
       WRT_IP: 192.168.50.1
       #默认密码，仅作提示，修改无用
