@@ -1,4 +1,4 @@
-name: ImmortalWrt-IPQ60XX-no
+name: ImmortalWrt-IPQ60XX-NOWIFI
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ImmortalWrt-IPQ60XX-no
+  FIRMWARE_TAG: ImmortalWrt-IPQ60XX-NOWIFI
   TZ: Asia/Shanghai
 
 jobs:
