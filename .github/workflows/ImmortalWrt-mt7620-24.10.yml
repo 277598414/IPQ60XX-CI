@@ -6,8 +6,8 @@ on:
     - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: lede-17.01
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_BRANCH: openwrt-18.06
   CONFIG_FILE: configs/7620.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
