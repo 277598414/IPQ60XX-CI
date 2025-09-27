@@ -1,4 +1,4 @@
-name: ImmortalWrt-mt7621-24.10
+name: ImmortalWrt-mt7621-18.06
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ImmortalWrt-mt7621-24.10
+  FIRMWARE_TAG: ImmortalWrt-mt7621-18.06
   TZ: Asia/Shanghai
 
 jobs:
