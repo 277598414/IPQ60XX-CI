@@ -1,4 +1,4 @@
-name: ImmortalWrt-mt7620
+name: ImmortalWrt-mt7620-lede-17.01
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ImmortalWrt-mt7620
+  FIRMWARE_TAG: ImmortalWrt-mt7620-lede-17.01
   TZ: Asia/Shanghai
 
 jobs:
